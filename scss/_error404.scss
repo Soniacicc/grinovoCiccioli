@@ -1,0 +1,20 @@
+.wrapError{
+    background-color: black;
+    margin:10rem auto;
+    width: 100rem;
+}
+.logoError{
+    text-align:center;
+}   
+.logoError p span{
+    color:lightgreen;
+}   
+.subError a{
+    color:white;
+    background:rgba(0,0,0,0.3);
+    text-decoration:none;
+    padding:5px 10px;
+    font-size:13px;
+    font-family: arial, serif;
+    font-weight:bold;
+} 

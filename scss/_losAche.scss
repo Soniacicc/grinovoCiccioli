@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Peddana', serif;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    padding: 1.5rem 1rem 0 0;
+    color: #FEF9E7;
+    font-weight: bolder;
+    font-style: italic;
+    text-align:right;
+    background: $oscuroCinco;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E2C00 , #DC7633);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC7633, #6E2C00 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-color: #7B7D7D; */
+    border-radius: 1rem;
+    border: 0rem;
+    margin: 0rem;
+}
+
+h2 {
+color: #E59866;
+font-family: 'PT Serif', serif;
+font-size: 2.5rem;
+background-color: #FEF9E7;
+border: 0rem;
+margin: 0rem;
+}
+h3 {
+font-size: 2rem;
+font-family: 'PT Serif', serif;
+color: $oscuroNegroSeis;
+background-color: #F6DDCC;
+}
+h4{
+font-size: 1.8rem;
+font-family: 'PT Serif', serif;
+color: #E59866;
+border: 0rem;
+margin: 0rem;
+}

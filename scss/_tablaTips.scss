@@ -1,0 +1,38 @@
+.tableNutricion{
+    align-items: center;
+}
+table{
+    display: inline-block;
+    position: relative;
+    left: 8rem;
+    background-image: url(../multimedia/comerHuevos.png);
+    background-blend-mode:luminosity;
+    background-size: 100%;
+    border-radius: 15px;
+    border-color: darksalmon;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: 15rem;
+}
+
+td{
+    background-color: #f5cba796;
+    text-align:left;
+    font-weight: bolder;
+    font-family:'PT Serif', serif;
+    font-size: 1.5rem;
+}
+.columnaUno {
+    background-color: #fdebd0bb;
+    text-align:left;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+th{
+    background-color: #EB984E;
+    color: #FDEBD0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+}
