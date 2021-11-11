@@ -19,12 +19,17 @@
   font-weight: bold; }
 
 header {
-  font-size: 1.5rem;
   text-align: center;
+  height: 26rem;
   background-size: 100%;
   border-color: white;
   border-radius: 0.5rem;
   background-image: url(../multimedia/fondoHuevos.jpg); }
+
+.pHeader {
+  padding-top: 1rem;
+  font-family: 'PT Serif', serif;
+  font-size: 1.5rem; }
 
 .tableNutricion {
   align-items: center; }
@@ -431,7 +436,7 @@ hr {
 } */
 .nosotrosHistoria {
   /* width: 84rem; */
-  height: 50rem;
+  height: 80rem;
   display: grid;
   grid-template-columns: 2fr 3fr 3fr;
   grid-template-rows: 5rem 3fr 3fr;
@@ -471,12 +476,16 @@ hr {
   grid-area: huevo; }
 
 .nosotrosDetalle {
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
   background-color: #F5CBA7;
   padding: 1rem;
   grid-area: detalle;
   border-radius: 1rem; }
 
 .nosotrosAhora {
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
   background-color: #EB984E;
   padding: 1rem;
   grid-area: ahora;

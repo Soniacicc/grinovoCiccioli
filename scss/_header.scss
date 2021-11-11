@@ -1,8 +1,13 @@
 header{
-    font-size: 1.5rem;
     text-align: center;
+    height: 26rem;
     background-size: 100%;
     border-color: white;
     border-radius: 0.5rem;
     background-image:url(../multimedia/fondoHuevos.jpg)
     }
+.pHeader{
+    padding-top: 1rem;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+}
