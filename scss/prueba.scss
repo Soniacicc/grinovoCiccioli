@@ -16,72 +16,74 @@ html{
     font-size: 62.5%;
 }
 
-.logoWs{
-    position: fixed;
-    top: 0.5em;
-    right:0.5rem;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 1rem;
-    border-style:solid;
-    z-index: 100;
-    }
-
 p{
     font-family: 'PT Serif', serif;
     font-size: 1.3rem;
     border: 0rem;
     margin: 1rem;
 }
-nav {
-    background-color: #E59866;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0rem;
-}
 
-.menuPrincipal{
-    background-color: transparent;
-    border-radius: 5px;
+
+.navbar{
+    position: fixed;
+    align-self: center;
+    z-index: 99;
+    width: 100%;
+    height: 4rem;
+    top: 0rem;
     text-decoration: none;
-    font-family: 'Peddana', serif;
+    background-color: violet;
+}
+.menuPrincipal{
+    font-family: 'PT Serif', serif;
     font-style: oblique;
-    font-size: 3rem;
-    color: white;
+    font-size: 1.8rem;
     border: 0rem;
     margin: 0rem;
-    /* text-align: center; */
+    padding: 0rem;
 }
 
-
 .liMenuPrincipal {
-    /* text-decoration: none; */
-    font-family: 'Peddana', serif;
-    display: inline-block;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    color: #641E16;
+    display: block;
     position: relative;
     border: 0rem;
     margin: 0rem;
 }
 
+.nav-item{
+    padding-left: 3rem;
+}
+
+.navbar-nav{
+    background-color: #F6DDCC;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+}
+
 .liMenuPrincipal ul{
+    color: #F6F6FE;
     position: absolute;
     display: none;
-    width: 60rem;
+    width: 20rem;
     text-align: left;
     border: 0rem;
     margin: 0rem;
+    border-radius: 1rem;
+    background-color: #E59866;
 }
 
 .liMenuPrincipal ul li{
     font-family: 'PT Serif', serif;
-    /* color: #641E16;   */
-    display:inline;
-    /* background-color: red; */
+    color: #641E16;
+    display:block;
     width: 20rem;
     text-align: left;
-    padding: 0 1rem 0 1rem;
+    padding: 0rem;
     border: 0rem;
-    margin: 0rem;
+    margin: 0rem;;
 }
 
 .liMenuPrincipal:hover ul{
@@ -90,14 +92,12 @@ nav {
 
 .subMenu {
     color: #F6DDCC;
-    font-size: 1.1rem;
-    /* font-family: 'PT Serif', serif; */
-    text-decoration: none;
-    display: inline-block;
+    font-size: 1.5rem;
     position: relative;
-    padding-left: 0rem;
+    padding: 0rem;
     border: 0rem;
     margin: 0rem;
+    line-height: 0rem;
 }
 
 a{
@@ -147,19 +147,6 @@ a{
     margin-left: 2rem;
 }
 
-
-
-.logosRedes{
-    width: 3rem;
-    height: 3rem;
-    margin-top: 1.5rem;
-    border-radius: 1rem;
-    border-style:solid;
-    /* top: 0px;
-    display: inline;
-    position: fixed;
-    z-index: 10000; */
-}
 
 hr{
     width: 80%;
@@ -508,3 +495,5 @@ a:hover {
 	right: 5rem;
 	bottom: -25px;
 }
+
+
