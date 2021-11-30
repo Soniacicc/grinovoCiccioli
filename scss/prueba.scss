@@ -32,7 +32,6 @@ p{
     height: 4rem;
     top: 0rem;
     text-decoration: none;
-    background-color: violet;
 }
 .menuPrincipal{
     font-family: 'PT Serif', serif;
@@ -53,14 +52,14 @@ p{
     margin: 0rem;
 }
 
-.nav-item{
-    padding-left: 3rem;
-}
+// .nav-item{
+//     padding-left: 3rem;
+// }
 
 .navbar-nav{
     background-color: #F6DDCC;
     border-radius: 1rem;
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
 }
 
 .liMenuPrincipal ul{
@@ -77,7 +76,7 @@ p{
 
 .liMenuPrincipal ul li{
     font-family: 'PT Serif', serif;
-    color: #641E16;
+    color: #F6F6FE;
     display:block;
     width: 20rem;
     text-align: left;
