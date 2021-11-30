@@ -1,0 +1,51 @@
+.h3Card{
+    background-color: $claroDos;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-body{
+    width: 90%;
+}
+
+.card-title{
+    background-color: $claroUno;
+    border-radius: 1rem;
+    text-align: center;
+    color: $medioTres;
+}
+
+.cardUno{
+    align-items: center;
+    border-radius: 1rem;
+    background-color: $medioDos;
+    margin: 1rem 0.5rem;
+}
+
+.cardDos{
+    align-items: center;
+    border-radius: 1rem;
+    background-color: $claroTres;
+    margin: 1rem 0.5rem;
+}
+
+.cardTres{
+    align-items: center;
+    border-radius: 1rem;
+    background-color: $claroTres;
+    margin: 1rem 0.5rem;
+}
+
+.btnCard{
+    background-color: $oscuroCinco;
+    font-size: 1.5rem;
+    color: $claroDos;
+    border-radius: 1rem;
+    border-color: $medioDos;
+    margin: 1rem;
+}
+
+.btnCard:hover{
+    text-decoration: none;
+    background-color: $medioDos;
+}
